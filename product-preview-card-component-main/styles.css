@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+
+    --Green500: hsl(158, 36%, 37%);
+    --Green700: hsl(158, 42%, 18%);
+    
+    
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+font-size: 14px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    /*Smartphone*/
+    @media(min-width:375px){
+
+}
+body{background-color: var(--Cream);}
+.textbox{background-color: var(--White);
+min-width: 375px;
+max-width: 700px;}
+.product-category{font-family:'Montserrat',sans-serif;
+color:var(--Grey);}
+
+.product-name{font-family:'Fraunces', sans-serif;
+font-weight:700;
+font-size: 1.8rem;
+color: var(--Black);}
+
+.product-description{font-family: 'Montserrat', sans-serif;
+color: var(--Grey);}
+
+.price{font-family:'Fraunces',sans-serif;
+font-weight:700;
+font-size: 1.8rem;
+color:var(--Green500);}
+
+.oldprice{font-family: 'Montserrat',sans-serif;
+    color: var(--Grey);
+    text-decoration: line-through;
+}
